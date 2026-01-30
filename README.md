@@ -22,29 +22,3 @@ Arquitectura desacoplada lista para producción.
 ---
 
 ## 📂 Estructura del Proyecto
-
-
-hoy-no-circula/
-│
-├── backend/
-│   └── HoyNoCircula.Api/
-│       ├── Controllers/
-│       ├── Models/
-│       ├── Dtos/
-│       ├── Services/
-│       ├── Data/
-│       ├── Program.cs
-│       └── appsettings.json
-│
-├── frontend/
-│   └── hoy-no-circula-front/
-│       ├── src/
-│       ├── angular.json
-│       ├── package.json
-│       └── tsconfig.json
-│
-├── database/
-│   └── scripts.sql
-│
-├── .gitignore
-└── README.md
