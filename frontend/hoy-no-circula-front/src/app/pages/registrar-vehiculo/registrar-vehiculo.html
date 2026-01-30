@@ -1,0 +1,140 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+
+      <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+          <h5 class="mb-0">Registrar Vehículo</h5>
+        </div>
+
+        <div class="card-body">
+          <form (ngSubmit)="registrar()" #form="ngForm">
+
+            <div class="mb-3">
+              <label class="form-label">Placa</label>
+              <input
+                type="text"
+                class="form-control"
+                name="placa"
+                [(ngModel)]="vehiculo.placa"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Marca</label>
+              <input
+                type="text"
+                class="form-control"
+                name="marca"
+                [(ngModel)]="vehiculo.marca"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Modelo</label>
+              <input
+                type="text"
+                class="form-control"
+                name="modelo"
+                [(ngModel)]="vehiculo.modelo"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Color</label>
+              <input
+                type="text"
+                class="form-control"
+                name="color"
+                [(ngModel)]="vehiculo.color"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Chasis</label>
+              <input
+                type="text"
+                class="form-control"
+                name="chasis"
+                [(ngModel)]="vehiculo.chasis"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Año</label>
+              <input
+                type="number"
+                class="form-control"
+                name="anio"
+                [(ngModel)]="vehiculo.anio"
+              />
+            </div>
+
+            <div class="d-grid">
+              <button
+                type="submit"
+                class="btn btn-primary"
+                [disabled]="form.invalid"
+              >
+                Registrar Vehículo
+              </button>
+            </div>
+
+          </form>
+
+          <div *ngIf="mensaje" class="alert alert-success mt-4">
+            {{ mensaje }}
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="resultadoModal"
+  tabindex="-1"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header bg-success text-white">
+        <h5 class="modal-title">Resultado</h5>
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="modal"
+        ></button>
+      </div>
+
+      <div class="modal-body text-center">
+        <p class="fw-bold">{{ mensaje }}</p>
+
+        <hr />
+
+        <p><strong>Placa:</strong> {{ vehiculo.placa }}</p>
+        <p><strong>Marca:</strong> {{ vehiculo.marca }}</p>
+        <p><strong>Modelo:</strong> {{ vehiculo.modelo }}</p>
+        <p><strong>Vehiculo Registrado</strong> </p>
+      </div>
+      <div class="modal-footer">
+        <button (ngSubmit)="limpiarFormulario()" 
+          type="button"
+          class="btn btn-secondary"
+          data-bs-dismiss="modal"
+        >
+        Cerrar
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>

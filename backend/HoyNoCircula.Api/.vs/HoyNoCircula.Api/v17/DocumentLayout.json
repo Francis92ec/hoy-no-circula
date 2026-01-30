@@ -1,0 +1,239 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Francis\\HoyNoCircula.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|c:\\users\\francis\\hoynocircula.api\\controlador\\vehiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|solutionrelative:controlador\\vehiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|c:\\users\\francis\\hoynocircula.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|c:\\users\\francis\\hoynocircula.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|c:\\users\\francis\\hoynocircula.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|c:\\users\\francis\\hoynocircula.api\\servicios\\ihoynocirculaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|solutionrelative:servicios\\ihoynocirculaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|c:\\users\\francis\\hoynocircula.api\\servicios\\hoynocirculaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|solutionrelative:servicios\\hoynocirculaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|c:\\users\\francis\\hoynocircula.api\\modelo\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|solutionrelative:modelo\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|c:\\users\\francis\\hoynocircula.api\\modelo\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|solutionrelative:modelo\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|c:\\users\\francis\\hoynocircula.api\\intraestructura\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|solutionrelative:intraestructura\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|c:\\users\\francis\\hoynocircula.api\\dtos\\vehiculorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|solutionrelative:dtos\\vehiculorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|c:\\users\\francis\\hoynocircula.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|c:\\users\\francis\\hoynocircula.api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|solutionrelative:middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|c:\\users\\francis\\hoynocircula.api\\hoynocircula.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9AC2E00F-42D0-952B-7C51-BE531BCF0583}|HoyNoCircula.Api.csproj|solutionrelative:hoynocircula.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Francis\\HoyNoCircula.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Francis\\HoyNoCircula.Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-30T03:44:27.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Francis\\HoyNoCircula.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Francis\\HoyNoCircula.Api\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-30T03:44:16.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VehiculosController.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\HoyNoCircula.Api\\Controlador\\VehiculosController.cs",
+              "RelativeDocumentMoniker": "Controlador\\VehiculosController.cs",
+              "ToolTip": "C:\\Users\\Francis\\HoyNoCircula.Api\\Controlador\\VehiculosController.cs",
+              "RelativeToolTip": "Controlador\\VehiculosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T03:41:16.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Consulta.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\HoyNoCircula.Api\\Modelo\\Consulta.cs",
+              "RelativeDocumentMoniker": "Modelo\\Consulta.cs",
+              "ToolTip": "C:\\Users\\Francis\\HoyNoCircula.Api\\Modelo\\Consulta.cs",
+              "RelativeToolTip": "Modelo\\Consulta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T04:14:35.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\HoyNoCircula.Api\\Modelo\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "Modelo\\Vehiculo.cs",
+              "ToolTip": "C:\\Users\\Francis\\HoyNoCircula.Api\\Modelo\\Vehiculo.cs",
+              "RelativeToolTip": "Modelo\\Vehiculo.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA5wC8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T03:33:35.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HoyNoCirculaService.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\HoyNoCircula.Api\\Servicios\\HoyNoCirculaService.cs",
+              "RelativeDocumentMoniker": "Servicios\\HoyNoCirculaService.cs",
+              "ToolTip": "C:\\Users\\Francis\\HoyNoCircula.Api\\Servicios\\HoyNoCirculaService.cs",
+              "RelativeToolTip": "Servicios\\HoyNoCirculaService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T03:40:51.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\HoyNoCircula.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Francis\\HoyNoCircula.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T03:27:38.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\HoyNoCircula.Api\\Intraestructura\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Intraestructura\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\Francis\\HoyNoCircula.Api\\Intraestructura\\ApiResponse.cs",
+              "RelativeToolTip": "Intraestructura\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T04:05:38.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IHoyNoCirculaService.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\HoyNoCircula.Api\\Servicios\\IHoyNoCirculaService.cs",
+              "RelativeDocumentMoniker": "Servicios\\IHoyNoCirculaService.cs",
+              "ToolTip": "C:\\Users\\Francis\\HoyNoCircula.Api\\Servicios\\IHoyNoCirculaService.cs",
+              "RelativeToolTip": "Servicios\\IHoyNoCirculaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T03:40:29.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VehiculoRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\HoyNoCircula.Api\\DTOs\\VehiculoRequestDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\VehiculoRequestDto.cs",
+              "ToolTip": "C:\\Users\\Francis\\HoyNoCircula.Api\\DTOs\\VehiculoRequestDto.cs",
+              "RelativeToolTip": "DTOs\\VehiculoRequestDto.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T03:39:02.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\HoyNoCircula.Api\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Francis\\HoyNoCircula.Api\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T03:33:07.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\HoyNoCircula.Api\\MIddlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "MIddlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Francis\\HoyNoCircula.Api\\MIddlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "MIddlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAhwA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T04:02:30.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HoyNoCircula.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Francis\\HoyNoCircula.Api\\HoyNoCircula.Api.csproj",
+              "RelativeDocumentMoniker": "HoyNoCircula.Api.csproj",
+              "ToolTip": "C:\\Users\\Francis\\HoyNoCircula.Api\\HoyNoCircula.Api.csproj",
+              "RelativeToolTip": "HoyNoCircula.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-28T04:05:09.975Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+############################
+# GENERAL
+############################
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+.env
+.env.local
+.env.development
+.env.production
+
+############################
+# NODE / ANGULAR
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Angular build
+dist/
+.angular/
+.cache/
+
+############################
+# TYPESCRIPT
+############################
+*.tsbuildinfo
+
+############################
+# VISUAL STUDIO CODE
+############################
+.vscode/*
+!.vscode/extensions.json
+
+############################
+# DOTNET / BACKEND
+############################
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.pdb
+
+############################
+# PUBLISH / BUILD OUTPUTS
+############################
+publish/
+out/
+build/
+
+############################
+# OS / IDE
+############################
+.idea/
+*.iml
+*.swp
+*.swo
+
+############################
+# TESTS / COVERAGE
+############################
+coverage/
+test-results/
+
+############################
+# DATABASE (LOCAL)
+############################
+*.mdf
+*.ldf
+*.sqlite
+*.db

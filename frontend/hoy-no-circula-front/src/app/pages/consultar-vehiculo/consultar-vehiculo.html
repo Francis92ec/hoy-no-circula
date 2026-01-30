@@ -1,0 +1,120 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+
+      <div class="card shadow-sm">
+        <div class="card-header bg-dark text-white">
+          <h5 class="mb-0">Consulta Hoy No Circula</h5>
+        </div>
+
+        <div class="card-body">
+
+          <form (ngSubmit)="consultar()" #form="ngForm">
+
+            <div class="mb-3">
+              <label class="form-label">Placa</label>
+              <input
+                type="text"
+                class="form-control"
+                name="placa"
+                [(ngModel)]="placa"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Fecha y hora</label>
+              <input
+                type="datetime-local"
+                class="form-control"
+                name="fechaHora"
+                [(ngModel)]="fechaHoraConsulta"
+                required
+              />
+            </div>
+
+            <div class="d-grid">
+              <button
+                class="btn btn-dark"
+                type="submit"
+                [disabled]="form.invalid"
+              >
+                Consultar
+              </button>
+            </div>
+
+          </form>
+
+          <!-- Resultado -->
+          <div *ngIf="resultado" class="mt-4 alert"
+               [ngClass]="resultado.puedeCircular ? 'alert-success' : 'alert-danger'">
+
+            <h6 class="fw-bold">
+              {{ resultado.mensaje }}
+            </h6>
+
+            <p><strong>Placa:</strong> {{ resultado.vehiculo.placa }}</p>
+            <p><strong>Marca:</strong> {{ resultado.vehiculo.marca }}</p>
+            <p><strong>Modelo:</strong> {{ resultado.vehiculo.modelo }}</p>
+          </div>
+           <!-- Nueva consulta -->
+          <div *ngIf="nuevaConsulta" class="text-center mt-3">
+            <button
+              class="btn btn-outline-primary px-4"
+              (click)="nuevaConsulta()"
+            >
+              🔄 Nueva consulta
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal Vehículo No Registrado -->
+<div
+  class="modal fade"
+  id="vehiculoNoRegistradoModal"
+  tabindex="-1"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content shadow">
+      <div class="modal-header bg-danger text-white">
+        <h5 class="modal-title">
+          ❌ Vehículo no registrado
+        </h5>
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="modal"
+        ></button>
+      </div>
+
+      <div class="modal-body text-center">
+        <p class="fs-5">
+          El vehículo con la placa ingresada
+          <strong>{{ placa }}</strong>
+          no se encuentra registrado en el sistema.
+        </p>
+
+        <p class="text-muted">
+          Por favor registra el vehículo antes de realizar la consulta.
+        </p>
+      </div>
+
+      <div class="modal-footer justify-content-center">
+        <button
+          type="button"
+          class="btn btn-danger px-4"
+          data-bs-dismiss="modal"
+        >
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,6 @@
+@HoyNoCircula.Api_HostAddress = http://localhost:5038
+
+GET {{HoyNoCircula.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
